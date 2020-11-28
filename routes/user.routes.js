@@ -8,6 +8,6 @@ const userController = require("../controllers/user.controller");
 //router.get("/", middlewares, blockchain.updateScore, userController.list);
 router.post("/create", userController.create);
 router.post("/join",userController.join);
-router.get("/:groupName", userController.getMembers);
+router.get("/:id", userController.getMembers);
 
 module.exports = router;

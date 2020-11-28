@@ -3,7 +3,7 @@ var cont = 0;
 exports.create = function(req,res,next){
     let groupName = req.body.id
     dataBase[groupName] = {}
-    res.status(200).send(`El grupo ${id} ha sido creado.`)
+    res.status(200).send(`El grupo ${groupName} ha sido creado.`)
     next()
 }
 
