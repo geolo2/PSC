@@ -9,6 +9,8 @@ npm install
 
 2.Arrancar el servidor
 
+npm run start
+
 
 
 ## Estructura de las peticiones
